@@ -15,7 +15,6 @@ This tool helps you create cryptocurrency wallets using industry-standard crypto
 ## ✨ Features
 
 - 🔑 Generate secure 12 or 24-word mnemonic phrases
-- 💼 Support for Solana and Ethereum wallets
 - 👁️ Toggle visibility for sensitive information (mnemonics, private keys)
 - 📋 One-click copy for addresses and keys
 - 🗑️ Easy wallet management (clear, delete individual wallets)
@@ -62,34 +61,6 @@ This tool helps you create cryptocurrency wallets using industry-standard crypto
 - **@solana/web3.js** - Solana wallet support
 - **tweetnacl** - Cryptographic operations
 
-## 📦 Build for Production
-```bash
-npm run build
-```
-
-The production-ready files will be in the `dist/` directory.
-
-## 🚢 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click Deploy
-
-Or use Vercel CLI:
-```bash
-npm i -g vercel
-vercel
-```
-
-## ⚠️ Security Notice
-
-- **Never share your mnemonic phrase or private keys with anyone**
-- **Store your recovery phrase in a secure offline location**
-- **This tool generates wallets client-side - your keys never leave your browser**
-- **For production use with real funds, consider using hardware wallets**
 
 ## 📝 License
 
